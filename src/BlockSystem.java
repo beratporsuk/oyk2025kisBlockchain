@@ -71,7 +71,7 @@ public class BlockSystem {
     }
 
     public static void main(String[] args) {
-        int difficulty = 3;
+        int difficulty = 5;
 
         BlockSystem genesisBlock = new BlockSystem(0, "0", "Genesis Block", difficulty);
         System.out.println(genesisBlock);
